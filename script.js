@@ -10,7 +10,7 @@ form.addEventListener("submit", async (e) => {
     
 // Nutzer informieren und Button deaktivieren
     statusMessage.style.color = "black";
-    statusMessage.textContent = "⏳ Dein PDF wird generiert und versendet, dies kann bis zu 2 Minuten dauern. Bitte nicht erneut klicken.";
+    statusMessage.textContent = "⏳ PDF wird erstellt und versendet, dies dauert 5 Minuten. Bitte auch Spam-Ordner prüfen";
     submitButton.disabled = true;
     
     try {
@@ -37,6 +37,6 @@ form.addEventListener("submit", async (e) => {
  // Button wieder aktivieren nach 2 Minuten (120 Sekunden)
     setTimeout(() => {
         submitButton.disabled = false;
-    }, 180000);
+    }, 300000);
     
 });
