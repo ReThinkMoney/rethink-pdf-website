@@ -12,7 +12,7 @@ body {
 }
 
 .form-wrapper {
-  background: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
   padding: 2rem;
   border-radius: 10px;
   text-align: center;
@@ -31,7 +31,7 @@ input, button {
 footer {
   color: #000;
   font-size: 0.8rem;
-  background: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   padding: 0.5rem;
   text-align: center;
   width: 100%;
