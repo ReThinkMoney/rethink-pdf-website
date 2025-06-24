@@ -12,7 +12,7 @@ body {
 }
 
 .form-wrapper {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: transparent;
   padding: 2rem;
   border-radius: 10px;
   text-align: center;
