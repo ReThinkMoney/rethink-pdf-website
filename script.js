@@ -1,5 +1,7 @@
 const form = document.getElementById("pdfForm");
 const statusMessage = document.getElementById("status-message");
+const submitButton = form.querySelector("button[type='submit']");
+
 
 form.addEventListener("submit", async (e) => {
     e.preventDefault();
